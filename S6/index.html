@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro parabólico</title>
+
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="tp1.css">
+
+    <!-- Código javascript -->
+    <script src="crono.js" defer></script>
+
+    <script src="tp1.js" defer></script>
+
+</head>
+<body>
+
+
+    <h1>Tiro parabólico</h1>
+    <canvas id="canvas"></canvas>
+
+    <input type="button" id="btnLanzar" value="Lanzar">
+    <input type="button" id="btnIniciar" value="Iniciar">
+    <p id="display">00</p>
+
+
+    <input type="range" id="angleSlider" min="0" max="90" value="45" step="1">
+    <span id="angleValue">45°</span>
+
+    <input type="range" id="speedSlider" min="1" max="100" value="50" step="1">
+    <span id="speedValue">5 m/s</span>
+
+
+</body>
+</html>

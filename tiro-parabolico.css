@@ -1,0 +1,16 @@
+/* 
+Estilos para el campo de tiro
+*/  
+
+#ctiro {
+    background-image: url('casa.avif');
+    background-size: cover; /* Esto ajusta la imagen al tamaño del cuerpo */
+    background-position: center; /* Esto centra la imagen */
+  
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+  }
+  
